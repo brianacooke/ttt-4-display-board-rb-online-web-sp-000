@@ -1,7 +1,7 @@
-def display_board(board = ["X", "O", "O"," ", "X", " ", "O", "O", "O"])
-  puts " #{board[0]} | #{board[8]} | #{board[8]} "
+def display_board(board = [" ", " ", " "," ", " ", " ", " ", " ", " "])
+  puts "   |   |   "
   puts "-----------"
-  puts "   | #{board[4]} |   "
+  puts "   |   |   "
   puts "-----------"
-  puts " #{board[6]} | #{board[7]} | #{board[8]} "
+  puts "   |   |   "
 end
